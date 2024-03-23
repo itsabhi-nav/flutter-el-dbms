@@ -1,0 +1,17 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Picker WebView</title>
+    <script>
+        function injectImage(base64Image) {
+          var imgElement = document.createElement('img');
+          imgElement.src = 'data:image/jpeg;base64,' + base64Image;
+          document.body.appendChild(imgElement);
+        }
+    </script>
+</head>
+<body>
+<!-- Your HTML content here -->
+</body>
+</html>
